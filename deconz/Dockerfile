@@ -59,5 +59,6 @@ COPY data/ika-otau-dl.sh /bin/
 COPY data/ledvance-otau-dl.sh /bin/
 COPY data/nginx.conf /etc/nginx/nginx.conf
 COPY data/run.sh data/discovery.sh /
+COPY data/plugins/libde_rest_plugin.so /usr/share/deCONZ/plugins/
 
 CMD ["/run.sh"]
